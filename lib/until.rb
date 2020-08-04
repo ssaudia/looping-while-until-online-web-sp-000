@@ -1,7 +1,18 @@
 def using_until
-loop do
+count = 1
+until count < 10
   puts "Wingardium Leviosa"
+  count +=1
 end
-  levitation_force = 7
+
+sum = 0
+number = 1
+until number <10
+  sum += number
+  number += 1
+end
+puts (sum)
+
+  levitation_force = 6
   #your code here
 end
